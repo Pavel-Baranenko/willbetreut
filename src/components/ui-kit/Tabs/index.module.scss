@@ -1,0 +1,49 @@
+.buttons {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    padding: 7px 14px;
+    border-radius: 50px;
+    color: #6C6C6C;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width:1080px) {
+  .buttons {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    button {
+      white-space: nowrap;
+      padding: 8.5px 15px;
+      border-radius: 50px;
+      color: #6C6C6C;
+      font-size: 12px;
+      background-color: #EBF3ED;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+
+    }
+  }
+
+  .wrap {
+    overflow-x: auto;
+    padding-bottom: 0;
+    height: fit-content;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+}
