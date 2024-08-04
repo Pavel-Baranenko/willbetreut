@@ -27,7 +27,7 @@ export default function Header({ isAuth, regPage }: HeaderProps) {
 
           <Link href="/" className='Logo'>
             <Image
-              src="/img/Logo.png"
+              src="img/Logo.png"
               alt="Willbetreut Logo"
               width={useMediaQuery(1080) ? 87 : 123.58}
               height={useMediaQuery(1080) ? 35 : 50}
