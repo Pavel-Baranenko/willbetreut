@@ -61,7 +61,7 @@ export default function Hero() {
 
           <div className={styles.item}>
             <div className={`green-bg ${styles.item__icon}`}>
-              <Image src="img/static/hands.png" alt=""
+              <Image src="img/static/Kinderbetreuung.png" alt=""
                 width={32}
                 height={32}
 
