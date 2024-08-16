@@ -35,7 +35,7 @@ const Order = () => {
                   Danke.
                 </p>
                 <div className={styles.author}>
-                  <Image src={"/img/static/user.png"} alt="User avatar"
+                  <Image src={"img/static/user.png"} alt="User avatar"
                     width={40} height={40} />
                   <div className={styles.author__info}>
                     <p>Erstellt von Doris</p>

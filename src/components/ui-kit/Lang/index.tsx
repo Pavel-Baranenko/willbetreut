@@ -42,7 +42,7 @@ export default function Lang() {
                       onClick={() => { setSelected(item); setIsOpen(false) }}
                     >
                       <Image
-                        src="/img/flags/germany.jpg"
+                        src="img/flags/germany.jpg"
                         alt=""
                         height="16"
                         width="16"

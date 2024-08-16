@@ -25,11 +25,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -47,11 +47,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -69,11 +69,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -91,11 +91,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -113,11 +113,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -135,11 +135,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -157,11 +157,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -179,11 +179,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>
@@ -201,11 +201,11 @@ export default function Reviews() {
           <SwiperSlide>
             <div className={styles.slide}>
               <div className={styles.top}>
-                <Image src="/img/static/user.png" alt="" width={50} height={50} />
+                <Image src="img/static/user.png" alt="" width={50} height={50} />
                 <div className={styles.info}>
                   <div className={styles.name}>Benedict Hauer</div>
                   <div className={styles.descr}>
-                    <Image src="/img/icons/diamond.png" alt="" width={24} height={19} />
+                    <Image src="img/icons/diamond.png" alt="" width={24} height={19} />
                     <span>4.9</span>
                     <Link href="#">Rezension</Link>
                   </div>

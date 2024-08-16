@@ -21,7 +21,7 @@ const Order = () => {
           {activeTab == "Activ" &&
             <div className={styles.box}>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -42,7 +42,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -63,7 +63,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -84,7 +84,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -105,7 +105,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -126,7 +126,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -151,7 +151,7 @@ const Order = () => {
           {activeTab == "Archiv" &&
             <div className={styles.box}>
               <div className={styles.item}>
-                <Image src={"/img/static/avatar.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/avatar.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -172,7 +172,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/avatar.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/avatar.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -193,7 +193,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/avatar.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/avatar.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -214,7 +214,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/avatar.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/avatar.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -235,7 +235,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/avatar.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/avatar.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -257,7 +257,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -284,7 +284,7 @@ const Order = () => {
           {activeTab == "Geblockt" &&
             <div className={styles.box}>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -305,7 +305,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -326,7 +326,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -347,7 +347,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -368,7 +368,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>
@@ -389,7 +389,7 @@ const Order = () => {
                 </div>
               </div>
               <div className={styles.item}>
-                <Image src={"/img/static/user.png"} alt="User avatar" width={60} height={60} />
+                <Image src={"img/static/user.png"} alt="User avatar" width={60} height={60} />
                 <div className={styles.info}>
                   <div className={styles.top}>
                     <span className={styles.name}>Evelyn Theil</span>

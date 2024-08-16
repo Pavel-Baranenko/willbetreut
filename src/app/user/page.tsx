@@ -15,7 +15,7 @@ const UserProfile = () => {
       <div className={styles.head}>
         <div className={styles.head__inner}>
           <div className={styles.avatar}>
-            <Image src="/img/static/avatar.png" alt=""
+            <Image src="img/static/avatar.png" alt=""
               width={useMediaQuery(1080) ? 70 : 140}
               height={useMediaQuery(1080) ? 70 : 140} />
 

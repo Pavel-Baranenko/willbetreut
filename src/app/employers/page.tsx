@@ -19,7 +19,7 @@ const Employers = () => {
           <div className={styles.box}>
             <div className={styles.item}>
               <div className={styles.avatar}>
-                <Image src="/img/static/avatar.png" alt=""
+                <Image src="img/static/avatar.png" alt=""
                   width={useMediaQuery(1080) ? 65 : 140}
                   height={useMediaQuery(1080) ? 65 : 140} />
                 <span className={styles.status}>
@@ -154,7 +154,7 @@ const Employers = () => {
             </div>
             <div className={styles.item}>
               <div className={styles.avatar}>
-                <Image src="/img/static/avatar.png" alt=""
+                <Image src="img/static/avatar.png" alt=""
                   width={useMediaQuery(1080) ? 65 : 140}
                   height={useMediaQuery(1080) ? 65 : 140} />
                 <span className={styles.status}>
@@ -288,7 +288,7 @@ const Employers = () => {
             </div>
             <div className={styles.item}>
               <div className={styles.avatar}>
-                <Image src="/img/static/avatar.png" alt=""
+                <Image src="img/static/avatar.png" alt=""
                   width={useMediaQuery(1080) ? 65 : 140}
                   height={useMediaQuery(1080) ? 65 : 140} />
                 <span className={styles.status}>
