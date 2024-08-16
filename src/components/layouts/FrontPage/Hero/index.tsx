@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
           <div className={styles.images}>
             <Image
-              src="img/static/hero-man.png"
+              src="/img/static/hero-man.png"
               alt="Ein männlicher Maler"
               width={useMediaQuery(1080) ? 70 : 151}
               // width={151}
@@ -48,7 +48,7 @@ export default function Hero() {
             // height={310}
             />
             <Image
-              src="img/static/hero-woman.png"
+              src="/img/static/hero-woman.png"
               alt="Hausmeisterin"
               width={useMediaQuery(1080) ? 75 : 161}
               // width={161}
@@ -61,7 +61,7 @@ export default function Hero() {
 
           <div className={styles.item}>
             <div className={`green-bg ${styles.item__icon}`}>
-              <Image src="img/static/Kinderbetreuung.png" alt=""
+              <Image src="/img/static/Kinderbetreuung.png" alt=""
                 width={32}
                 height={32}
 
@@ -73,7 +73,7 @@ export default function Hero() {
           </div>
           <div className={styles.item}>
             <div className={`beige-bg ${styles.item__icon}`}>
-              <Image src="img/static/Haushaltshilfe.png" alt=""
+              <Image src="/img/static/Haushaltshilfe.png" alt=""
                 width={32}
                 height={32}
               />
@@ -84,7 +84,7 @@ export default function Hero() {
           </div>
           <div className={styles.item}>
             <div className={`green-bg ${styles.item__icon}`}>
-              <Image src="img/static/Tierbetreuung.png" alt=""
+              <Image src="/img/static/Tierbetreuung.png" alt=""
                 width={32}
                 height={32}
               />
@@ -95,7 +95,7 @@ export default function Hero() {
           </div>
           <div className={styles.item}>
             <div className={`beige-bg ${styles.item__icon}`}>
-              <Image src="img/static/Seniorenbetreuung.png" alt=""
+              <Image src="/img/static/Seniorenbetreuung.png" alt=""
                 width={32}
                 height={32}
               />
@@ -106,7 +106,7 @@ export default function Hero() {
           </div>
           <div className={styles.item}>
             <div className={`green-bg ${styles.item__icon}`}>
-              <Image src="img/static/Au-Pair.png" alt=""
+              <Image src="/img/static/Au-Pair.png" alt=""
                 width={32}
                 height={32}
               />
@@ -117,7 +117,7 @@ export default function Hero() {
           </div>
           <div className={styles.item}>
             <div className={`beige-bg ${styles.item__icon}`}>
-              <Image src="img/static/Nachhilfe.png" alt=""
+              <Image src="/img/static/Nachhilfe.png" alt=""
                 width={32}
                 height={32}
               />

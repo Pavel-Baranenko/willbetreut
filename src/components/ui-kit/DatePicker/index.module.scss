@@ -1,0 +1,45 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #000;
+  gap: 32px;
+}
+
+.date {
+  position: relative;
+  border-radius: 50px;
+  height: 50px;
+  background: #f1f2f3;
+  display: flex;
+  align-items: center;
+
+  input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding-left: 58px;
+
+    &::-webkit-calendar-picker-indicator {
+      position: absolute;
+      left: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 39px;
+      height: 38px;
+      background-image: url(../../../../public/img/icons/calendar.svg);
+    }
+  }
+}
+
+.auth {
+  justify-content: space-between;
+}
+
+@media (max-width: 1080px) {
+  .wrap {
+    font-size: 12px;
+  }
+}

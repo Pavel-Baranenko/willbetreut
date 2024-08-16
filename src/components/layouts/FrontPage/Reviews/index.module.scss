@@ -1,0 +1,79 @@
+.wrap {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  width: 259px;
+  height: 294px;
+  box-shadow: 1px -1px 20px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: #2a344a;
+  margin-bottom: 5px;
+}
+
+.descr {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    color: #2a344a;
+    margin: 0 9px 0 4px;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2a344a;
+  }
+}
+
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #3b4a69;
+}
+
+.bottom {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #3b4a69;
+}
+
+.swiper {
+  overflow: unset;
+
+  :global {
+    .swiper-slide {
+      width: fit-content;
+    }
+  }
+}

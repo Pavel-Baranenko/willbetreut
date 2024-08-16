@@ -12,7 +12,7 @@ export default function City() {
     <div className={styles.wrap}>
       <button className={styles.selected} onClick={() => { setIsOpen(!isOpen) }}>
         <div className={styles.img__inner} >
-          <img src="./img/icons/city.png" alt="City.png" />
+          <img src="../img/icons/city.png" alt="City.png" />
         </div>
         <span>{selected}</span>
 

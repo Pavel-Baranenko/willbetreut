@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import '../scss/global.scss'
+import Header from "@/components/elements/Header";
+import Footer from "@/components/elements/Footer";
+import MobileBottom from "@/components/elements/MobileBottom";
+
 
 export const metadata: Metadata = {
   title: "Willbetreut",
@@ -13,7 +17,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body >
+        <div className="wrapper">
+          <Header />
+          <main className="main">
+            {children}
+          </main>
+          <Footer />
+        </div>
+        <MobileBottom />
+
+      </body>
     </html>
   );
 }

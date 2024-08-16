@@ -27,7 +27,7 @@ export default function Header({ isAuth, regPage }: HeaderProps) {
 
           <Link href="/" className='Logo'>
             <Image
-              src="img/Logo.png"
+              src="/img/Logo.png"
               alt="Willbetreut Logo"
               width={useMediaQuery(1080) ? 87 : 123.58}
               height={useMediaQuery(1080) ? 35 : 50}
@@ -35,11 +35,11 @@ export default function Header({ isAuth, regPage }: HeaderProps) {
           </Link>
           <div className="header__right">
             {(!useMediaQuery(1080)) &&
-              <Link href="#" className='header__link'>Job finden</Link>
+              <Link href="/find-job" className='header__link'>Job finden</Link>
             }
             <Link href="#" className={`header__link ${useMediaQuery(1080) ? "green-btn" : ""}`}>Einloggen</Link>
             {!useMediaQuery(1080) &&
-              <Link href="#" className='header__reg green-btn'>Jetzt registrieren</Link>
+              <Link href="/auth/sing-up" className='header__reg green-btn'>Jetzt registrieren</Link>
             }
           </div>
         </div>

@@ -1,0 +1,151 @@
+.wrap {
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.column {
+  border-radius: 22px;
+  background: #fafafa;
+  padding: 25px 34px;
+
+  &__top {
+    display: flex;
+    align-items: center;
+
+    font-weight: 700;
+    margin-bottom: 25px;
+
+    span {
+      color: #045719;
+    }
+
+    a {
+      font-weight: 700;
+      font-size: 12px;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      margin-left: auto;
+    }
+  }
+
+  &__line {
+    display: flex;
+
+
+    &:not(:last-child) {
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+      border-bottom: 0.50px solid #d0d0d0;
+    }
+
+    strong {
+      font-weight: 700;
+      margin-right: auto;
+    }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    a {
+      font-size: 14px;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      text-align: right;
+      color: #000;
+      margin-left: auto;
+
+      &.green {
+        font-weight: 400;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        text-align: right;
+        color: #045719;
+      }
+
+      &.bold__link {
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        text-align: right;
+        color: #045719;
+      }
+    }
+  }
+
+  &__item {
+    display: flex;
+    gap: 6px;
+    align-items: start;
+    margin-bottom: 6px;
+
+    svg {
+      min-width: 10px;
+      height: auto;
+      margin-top: 4px;
+    }
+
+    p {
+      padding-top: 0;
+      padding-bottom: 13px;
+      border-bottom: 0.50px solid #d0d0d0;
+      font-size: 12px;
+      line-height: 137%;
+
+      a {
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #045719;
+      }
+    }
+  }
+}
+
+@media (max-width:1080px) {
+  .wrap {
+    margin-top: 81px;
+    gap: 30px;
+  }
+
+  .column {
+    border-radius: 10px;
+    padding: 13px 20px;
+
+    &__top {
+      margin-bottom: 14px;
+      font-size: 12px;
+    }
+
+    &__line {
+      font-size: 12px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    &__item {
+      &:not(:last-child) {
+        padding-bottom: 10px;
+        border-bottom: 0.50px solid #d0d0d0;
+      }
+
+      svg {
+        min-width: 10px;
+        height: auto;
+        margin-top: 4px;
+      }
+
+      p {
+        padding: 0;
+        border-bottom: none;
+      }
+    }
+  }
+
+}

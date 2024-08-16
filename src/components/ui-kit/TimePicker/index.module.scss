@@ -1,0 +1,89 @@
+.wrap {
+  border-radius: 15px;
+  width: 600px;
+  background: #f9f9f9;
+  padding: 15px 80px 15px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #000;
+}
+
+.auth {
+  width: 319px;
+  padding: 14px;
+  font-size: 10px;
+  background-color: #fff;
+
+  .right {
+    display: flex;
+    align-items: center;
+    width: 224px;
+    justify-content: space-between;
+    margin-left: auto;
+    gap: 14px;
+  }
+}
+
+.top {
+  margin-bottom: 5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  width: 321px;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inner {
+  display: flex;
+
+  label {
+    display: block;
+    height: 21px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #a7a7a7;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  input:checked+label {
+    background-image: url(../../../../public/img/icons/check_circle.svg);
+    border: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .wrap {
+    max-width: 100%;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  .right {
+    width: calc(100% - 70px);
+    margin-left: auto;
+  }
+}

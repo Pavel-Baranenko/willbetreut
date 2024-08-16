@@ -1,3 +1,4 @@
+import Reviews from "../Reviews"
 import styles from "./index.module.scss"
 
 
@@ -34,6 +35,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Reviews />
       <section className={styles.about}>
         <div className="container">
           <h6 className="section-title">Darum vertrauen uns Familien in&nbsp;ganz &Ouml;sterreich</h6>
@@ -88,7 +90,7 @@ export default function About() {
 
               <span>Bewährte Darsteller</span>
             </div>
-            <div className={styles.inner}>
+            {/* <div className={styles.inner}>
               <div className={`beige-bg ${styles.icon}`}>
                 <svg width="12" height="14" viewBox="0 0 12 14" fill="none" >
                   <g clipPath="url(#clip0_115_1893)">
@@ -104,7 +106,7 @@ export default function About() {
               </div>
 
               <span>Sichere Zahlungen</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

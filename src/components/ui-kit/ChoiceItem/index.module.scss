@@ -1,0 +1,43 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  width: 285px;
+  cursor: pointer;
+}
+
+.icon {
+  position: relative;
+  z-index: 1;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  border: 6px solid #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -76px;
+
+  img {
+    max-height: 30px;
+    width: auto;
+  }
+}
+
+.content {
+  border-radius: 800px;
+
+  width: 285px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #272727;
+}
+
+.left {
+  padding-left: 38px;
+}
